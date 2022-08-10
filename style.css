@@ -1,0 +1,76 @@
+.gb_contant{
+
+}
+.gb_right{
+    text-align: right;
+
+}
+.gb_contant_tb{
+    font-family: Arial, sans-serif;
+    line-height: normal;
+    padding-right: 15px;
+}
+.gb_txt_mail{
+    display: inline-block;
+    padding-left: 15px;
+}
+.gb_txt_mail>a{
+    color: rgba(0,0,0,.87);
+    text-decoration: none;
+    font: 13px/27px Roboto,Arial,sans-serif;
+}
+.gb_txt_mail a:hover{
+    text-decoration: underline;
+}
+.gb_txt_img{
+    display: inline-block;
+    padding-left: 15px;
+}
+.gb_txt_img > a{
+    color: rgba(0,0,0,.87);
+    text-decoration: none;
+    font: 13px/27px Roboto,Arial,sans-serif;
+}
+.gb_txt_img > a:hover{
+    text-decoration: underline;
+}
+.gb_img_menu{
+    display: inline-block;
+    padding: 8px;
+   
+}
+.gb_img_myinfo{
+    display: inline-block;
+    padding: 8px;
+}
+.gb_img{
+    line-height: normal;
+    padding-right: 15px;
+}
+
+.img_menu {
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+}
+.gb_img_menu:hover {
+    background-color: rgba(60,64,67,.08);
+    border-radius: 50%;
+}
+.img_myinfo {
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    object-fit: cover;
+}
+.gb_img_myinfo :hover{
+    background-color: rgb(5, 116, 201);
+}
+#logo {
+    forced-color-adjust: none;
+    height: 92px;
+    width: 272px;
+} 
+:host{
+    
+}
