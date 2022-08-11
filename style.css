@@ -1,59 +1,86 @@
-.gb_contant{
 
-}
-.gb_right{
-    text-align: right;
 
+/* 왼쪽 상단 묶음 */
+.gb-left_contant{
+    display: flex;
+    justify-content: flex-start;
 }
+/* 오른쪽 상단 묶음 */
 .gb_contant_tb{
     font-family: Arial, sans-serif;
     line-height: normal;
-    padding-right: 15px;
+    display: flex;
+    justify-content: flex-end; 
 }
-.gb_txt_mail{
-    display: inline-block;
-    padding-left: 15px;
-}
-.gb_txt_mail>a{
+/* 왼쪽 상단 Google정보 */
+.gb-left_manu{
     color: rgba(0,0,0,.87);
     text-decoration: none;
     font: 13px/27px Roboto,Arial,sans-serif;
+    padding-left: 15px;
+
 }
+/* 왼쪽 상단 스토어 */
+.gb-left_back{
+    color: rgba(0,0,0,.87);
+    text-decoration: none;
+    font: 13px/27px Roboto,Arial,sans-serif;
+    padding-left: 15px;
+}
+/* 오른쪽 상단 Gmail */
+.gb_txt_mail > a{ 
+    display: inline-flex;
+    padding-left: 15px;
+    color: rgba(0,0,0,.87);
+    text-decoration: none;
+    font: 13px/27px Roboto,Arial,sans-serif;
+    
+}
+/* 오른쪽 상단 Gmail 호버기능 */
 .gb_txt_mail a:hover{
     text-decoration: underline;
 }
-.gb_txt_img{
-    display: inline-block;
-    padding-left: 15px;
-}
+/* 오른쪽 상단 이미지 */
 .gb_txt_img > a{
+    display: inline-flex;
+    padding-left: 15px;
     color: rgba(0,0,0,.87);
     text-decoration: none;
     font: 13px/27px Roboto,Arial,sans-serif;
+
 }
+/* 오른쪽 상단 이미지 호버 */
 .gb_txt_img > a:hover{
     text-decoration: underline;
 }
+/* 오른쪽 상단 메뉴 */
 .gb_img_menu{
-    display: inline-block;
-    padding: 8px;
-   
+    display: flex;
+    padding-left: 13px;
+    margin-top: 3px;
 }
+/* 오른쪽 상단 내정보 메뉴 */
 .gb_img_myinfo{
-    display: inline-block;
-    padding: 8px;
+    display: flex;
+    padding-left: 13px;
+    bottom: 5px;
 }
+
 .gb_img{
     line-height: normal;
     padding-right: 15px;
 }
-
+.gb_menu{
+    
+}
 .img_menu {
-    width: 20px;
-    height: 20px;
-    object-fit: cover;
+    display: flex;
+    width: 25px;
+   
+    height: 25px;
 }
 .gb_img_menu:hover {
+    display: flex;
     background-color: rgba(60,64,67,.08);
     border-radius: 50%;
 }
@@ -64,13 +91,23 @@
     object-fit: cover;
 }
 .gb_img_myinfo :hover{
-    background-color: rgb(5, 116, 201);
+
+    background-color: rgba(22, 197, 197, 0.68);
+    
 }
 #logo {
-    forced-color-adjust: none;
-    height: 92px;
-    width: 272px;
+    display: flex;
+    justify-content: center;
 } 
-:host{
+.main_logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     
+}
+.search_input {
+    background-image: url(./picture/icons8-수색-48.png);
+    background-repeat : no-repeat;
+    background-size : 20px;
+    background-position: right;
 }
